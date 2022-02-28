@@ -52,7 +52,7 @@ body {
     font-size: 16px;
     text-align: justify;
     font-weight: bold;
-    background: url(img.png);
+    background: url("./starter-code/src/img.png");
     background-repeat: no-repeat;
     background-size: cover;
     
