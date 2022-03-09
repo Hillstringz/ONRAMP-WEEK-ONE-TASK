@@ -99,3 +99,13 @@ button {
     left: 125px;
 }
 
+#screen{
+    margin-left: 180px;
+   background-color: white;
+   height: 35px;
+   width:320px;
+   color: red;
+   text-align: center;
+   font-family: 'Courier Prime', monospace;
+   font-size: 17px;
+   }

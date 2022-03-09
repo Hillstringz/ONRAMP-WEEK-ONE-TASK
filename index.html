@@ -6,30 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
-</head>git 
+</head>
 <body>
     <div class="container">
         <form>  
             <div class="details">
             <label> Your Name <span class="red"> *</span></label> 
-            <input type="name"  class="inputMeNow">  <br> <br>  
+            <input type="name"  class="inputMeNow" id="Myname">  <br> <br>  
     
             <label> Your Email <span class="red"> *</span></label> 
-            <input type="email" class="inputMe">  <br> <br>  
+            <input type="email" class="inputMe" id="MyEmail">  <br> <br>  
     
             <label> Activation Token <span class="red"> *</span></label> 
-            <input type="password">  <br> <br>  
+            <input type="text"  id="activate">  <br> <br>  
         </div>
     
         <div class="center">
             <label> You agree to the <span> <u>private policy </u></span>  <span class="red">* </span></label>
-            <input type="checkbox"> <br><br><br>
+            <input type="checkbox" name="checkbox" id="accept" value="yes"></input> <br><br><br>
         </div>
-            <input type="email" class="inputMe"> <br><br><br>
-
-            <div><button type="submit">submit</button></div>
+        <div id="screen"></div> <br> 
+            
+            <div><button type="submit" class="submit">submit</button></div>
             </form> 
     </div>
-     
+     <script src ="script.js"></script>
 </body>
+
 </html>
